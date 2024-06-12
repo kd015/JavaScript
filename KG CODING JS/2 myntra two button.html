@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>working btn</title>
+
+    <style>
+        #add-to-bag{
+            background-color: lightgreen;
+            border-radius: 12px;
+            border: none;
+           
+        }
+        .btn{
+            color: rgb(16, 12, 12);
+            padding: 10px;
+        }
+
+        #wishlist{
+            border: 2px solid black;
+            padding: 5px 25px;
+            border-radius: 8px;
+        }
+
+        #add-sale{
+            background-color: lightgreen;
+            border-radius: 12px;
+            border: none;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <!-- <button id = "add-to-bag" class = "btn" >Add to Bag</button> 
+    <button id = "wishlist" class = "btn"> ❤️ WISHLIST</button> -->
+
+    <button id = "add-to-bag" class = "btn"  onclick="cardQuantity = cardQuantity + 1;  document.querySelector('#cart-summary').innerText = `Your Bag has ${cardQuantity} items`">Add to Bag</button> 
+    <button id = "wishlist" class = "btn" onclick="cardQuantity--;  document.querySelector('#cart-summary').innerText = `Your Bag has ${cardQuantity} items`"> MOVE TO WISHLIST</button>
+
+    <button id = "add-sale" class = "btn"  onclick="cardQuantity += 2;  document.querySelector('#cart-summary').innerText = `Your Bag has ${cardQuantity} items`">Add 1+1 sale itme</button> 
+
+    <h1 id="cart-summary"></h1>
+
+    <!-- <p id = "name-display"></p> -->
+
+    <script>
+
+        let cardQuantity = 5
+        document.querySelector('#cart-summary').innerText = `Your Bag has ${cardQuantity} items`
+
+        //const name = "Krishna"
+       // document.querySelector("#name-display").innerText = name 
+
+       //eval : maths expression maan kr solve kr dega!!
+
+    </script>
+
+    
+</body>
+</html>
