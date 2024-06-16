@@ -28,3 +28,5 @@ const users = [
 
 const myUser = users.find((user)=>user.userId===2)
 console.log(myUser)
+
+

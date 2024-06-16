@@ -35,58 +35,7 @@
 
     ">Bat</button>
 
-    <!-- BALL BUTTON -->
-
-    <button onclick = "
-    //this will generate random no.
-    randomNumber = Math.random()*3;
-    computerChoice;
-    if ( randomNumber > 0 && randomNumber <= 1){
-        computerChoice = 'Bat';
-    }  else if ( randomNumber > 1 && randomNumber <= 2 ){
-        computerChoice = 'Ball';
-    }  else{
-        computerChoice = 'Stump'
-    }
     
-    resultMsg;
-    if ( computerChoice === 'Ball'){
-     resultMsg = `It's ties `;
-    } else if (computerChoice === 'Bat'){
-     resultMsg = `Computer has won!!!`
-    } else if ( computerChoice === 'Stump'){
-     resultMsg = 'User won.'}
-    
-    alert(`You have chosen Bat. Computer choice is ${computerChoice} and ${resultMsg}`);
-
-    ">Ball</button>
-
-    <!-- Stump Button -->
-    <button onclick = "
-    //this will generate random no.
-     randomNumber = Math.random()*3;
-     computerChoice;
-    if ( randomNumber > 0 && randomNumber <= 1){
-        computerChoice = 'Bat';
-    }  else if ( randomNumber > 1 && randomNumber <= 2 ){
-        computerChoice = 'Ball';
-    }  else{
-        computerChoice = 'Stump'
-    }
-    
-    resultMsg;
-    if ( computerChoice === 'Ball'){
-     resultMsg = `Computer has won!!!`
-    } else if (computerChoice === 'Bat'){
-     resultMsg = 'User won.' ;
-    } else if ( computerChoice === 'Stump'){
-     resultMsg = `It's ties `}
-    
-    alert(`You have chosen Stump. Computer choice is ${computerChoice} and ${resultMsg}`);
-
-    "
-    >Stump</button>
-
 
 
 </body>
