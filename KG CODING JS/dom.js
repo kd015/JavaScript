@@ -53,3 +53,11 @@ console.log(myDate.getDay())
 console.log(myDate.getMinutes())
 console.log(myDate.getHours())
 
+
+
+//dom:
+
+let button = document.createElement('Button')
+button.innerText = 'click me'
+
+document.querySelector('.my-div').appendChild(button)

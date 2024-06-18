@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    text-align: center;
+  }
+  
+  .choice-button {
+    height: 100px;
+    width: 100px;
+    border: none;
+    margin: 10px;
+    background-color: rgb(95, 213, 10);
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  .choice-image {
+    height: 75px;
+  }
+
+body{
+    background-color: rgb(123, 196, 144);
+}
+
+#head{
+    background-color: rgb(26, 151, 88);
+}
+
+#reset{
+    background-color:rgb(51, 86, 214);
+    margin-top: 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    padding: 6px;
+    border: 1px solid black;
+}
